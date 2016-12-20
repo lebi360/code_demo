@@ -19,10 +19,6 @@ import javax.jms.*;
  */
 public class ProxyJMSConsumer implements SessionAwareMessageListener {
 
-    public ProxyJMSConsumer() {
-
-    }
-
     private JmsTemplate jmsTemplate;
 
     public JmsTemplate getJmsTemplate() {
