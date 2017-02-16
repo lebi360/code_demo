@@ -1,7 +1,6 @@
 package coderr.kerwin.codetest.test;
 
 public class TestThreadOrder {
-
     public static void main(String[] args) throws InterruptedException {
         TempObject obj1 = new TempObject(1,5);
         TempObject obj2 = new TempObject(2,5);
