@@ -1,9 +1,6 @@
 import java.io.*;
 import java.util.HashMap;
 
-/**
- * Created by caihx on 2017/2/16.
- */
 public class BGFileProcess {
     public static File[] splitFiles = new File[1000];
     public static void createBigDate() {
@@ -20,8 +17,6 @@ public class BGFileProcess {
         File file = new File("bb.txt");
         BufferedReader reader = null;
         try {
-
-            System.out.println("以行为单位读取文件内容，一次读一整行：");
             reader = new BufferedReader(new FileReader(file));
             String tempString = null;
             int line = 1;
