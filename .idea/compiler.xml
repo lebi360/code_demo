@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="concruurent" />
         <module name="File_Demo" />
+        <module name="interviewTest" />
+        <module name="InterviewTest" />
         <module name="ThreadOrder_Demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="concruurent" target="1.5" />
       <module name="File_Demo" target="1.5" />
       <module name="filedemo" target="1.5" />
+      <module name="interviewTest" target="1.5" />
+      <module name="InterviewTest" target="1.5" />
       <module name="ThreadOrder_Demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

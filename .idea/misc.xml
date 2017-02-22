@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/ThreadOrder_Demo/pom.xml" />
         <option value="$PROJECT_DIR$/File_Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/interviewTest/pom.xml" />
+        <option value="$PROJECT_DIR$/concruurent/pom.xml" />
       </list>
     </option>
   </component>
